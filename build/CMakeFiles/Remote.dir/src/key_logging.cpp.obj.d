@@ -1,12 +1,12 @@
 CMakeFiles/Remote.dir/src/key_logging.cpp.obj: \
  C:/Users/17202/Desktop/Remote/src/key_logging.cpp \
- C:/mingw64/include/c++/13.1.0/fstream \
+ C:/mingw64/include/c++/13.1.0/iostream \
  C:/mingw64/include/c++/13.1.0/bits/requires_hosted.h \
  C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/os_defines.h \
  C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/cpu_defines.h \
  C:/mingw64/include/c++/13.1.0/pstl/pstl_config.h \
- C:/mingw64/include/c++/13.1.0/istream C:/mingw64/include/c++/13.1.0/ios \
+ C:/mingw64/include/c++/13.1.0/ostream C:/mingw64/include/c++/13.1.0/ios \
  C:/mingw64/include/c++/13.1.0/iosfwd \
  C:/mingw64/include/c++/13.1.0/bits/stringfwd.h \
  C:/mingw64/include/c++/13.1.0/bits/memoryfwd.h \
@@ -152,9 +152,10 @@ CMakeFiles/Remote.dir/src/key_logging.cpp.obj: \
  C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/ctype_inline.h \
  C:/mingw64/include/c++/13.1.0/bits/locale_facets.tcc \
  C:/mingw64/include/c++/13.1.0/bits/basic_ios.tcc \
- C:/mingw64/include/c++/13.1.0/ostream \
  C:/mingw64/include/c++/13.1.0/bits/ostream.tcc \
+ C:/mingw64/include/c++/13.1.0/istream \
  C:/mingw64/include/c++/13.1.0/bits/istream.tcc \
+ C:/mingw64/include/c++/13.1.0/fstream \
  C:/mingw64/include/c++/13.1.0/bits/codecvt.h \
  C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/basic_file.h \
  C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++io.h \
@@ -403,4 +404,7 @@ CMakeFiles/Remote.dir/src/key_logging.cpp.obj: \
  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stralign_s.h \
  C:/mingw64/x86_64-w64-mingw32/include/winsvc.h \
  C:/mingw64/x86_64-w64-mingw32/include/mcx.h \
- C:/mingw64/x86_64-w64-mingw32/include/imm.h
+ C:/mingw64/x86_64-w64-mingw32/include/imm.h \
+ C:/mingw64/x86_64-w64-mingw32/include/sys/stat.h \
+ C:/mingw64/x86_64-w64-mingw32/include/io.h \
+ C:/mingw64/x86_64-w64-mingw32/include/sys/types.h
