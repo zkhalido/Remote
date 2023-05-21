@@ -1,0 +1,1 @@
+C:/Users/17202/Desktop/Remote/build/_CPack_Packages/win64/NSIS/Remote-0.1.1-win64/bin/Remote.exe

@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/17202/Desktop/Remote/build",
+  "command": "C:/mingw64/bin/c++.exe  @CMakeFiles/Remote.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles/Remote.dir/src/main.cpp.obj -c C:/Users/17202/Desktop/Remote/src/main.cpp",
+  "file": "C:/Users/17202/Desktop/Remote/src/main.cpp",
+  "output": "CMakeFiles/Remote.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/17202/Desktop/Remote/build",
+  "command": "C:/mingw64/bin/c++.exe  @CMakeFiles/Remote.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles/Remote.dir/src/mainloop.cpp.obj -c C:/Users/17202/Desktop/Remote/src/mainloop.cpp",
+  "file": "C:/Users/17202/Desktop/Remote/src/mainloop.cpp",
+  "output": "CMakeFiles/Remote.dir/src/mainloop.cpp.obj"
+},
+{
+  "directory": "C:/Users/17202/Desktop/Remote/build",
+  "command": "C:/mingw64/bin/c++.exe  @CMakeFiles/Remote.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles/Remote.dir/src/transSpecialKey.cpp.obj -c C:/Users/17202/Desktop/Remote/src/transSpecialKey.cpp",
+  "file": "C:/Users/17202/Desktop/Remote/src/transSpecialKey.cpp",
+  "output": "CMakeFiles/Remote.dir/src/transSpecialKey.cpp.obj"
+},
+{
+  "directory": "C:/Users/17202/Desktop/Remote/build",
+  "command": "C:/mingw64/bin/c++.exe  @CMakeFiles/Remote.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles/Remote.dir/src/key_logging.cpp.obj -c C:/Users/17202/Desktop/Remote/src/key_logging.cpp",
+  "file": "C:/Users/17202/Desktop/Remote/src/key_logging.cpp",
+  "output": "CMakeFiles/Remote.dir/src/key_logging.cpp.obj"
+}
+]
