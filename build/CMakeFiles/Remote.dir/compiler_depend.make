@@ -1174,6 +1174,8 @@ CMakeFiles/Remote.dir/src/mainloop.cpp.obj: C:/Users/17202/Desktop/Remote/src/ma
   C:/mingw64/include/c++/13.1.0/barrier \
   C:/mingw64/include/c++/13.1.0/latch \
   C:/mingw64/include/c++/13.1.0/syncstream \
+  C:/mingw64/x86_64-w64-mingw32/include/conio.h \
+  C:/mingw64/x86_64-w64-mingw32/include/sec_api/conio_s.h \
   C:/Users/17202/Desktop/Remote/include/mainloop.h \
   C:/Users/17202/Desktop/Remote/include/key_logging.h \
   C:/Users/17202/Desktop/Remote/include/transSpecialKey.h
@@ -1583,6 +1585,8 @@ CMakeFiles/Remote.dir/src/transSpecialKey.cpp.obj: C:/Users/17202/Desktop/Remote
 
 
 C:/Users/17202/Desktop/Remote/include/key_logging.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/conio.h:
 
 C:/mingw64/include/c++/13.1.0/syncstream:
 
@@ -2233,6 +2237,8 @@ C:/mingw64/include/c++/13.1.0/bits/invoke.h:
 C:/mingw64/x86_64-w64-mingw32/include/psdk_inc/_ip_mreq1.h:
 
 C:/mingw64/include/c++/13.1.0/bits/memory_resource.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/sec_api/conio_s.h:
 
 C:/mingw64/include/c++/13.1.0/ios:
 

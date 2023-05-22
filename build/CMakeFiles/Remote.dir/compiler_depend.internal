@@ -1177,6 +1177,8 @@ CMakeFiles/Remote.dir/src/mainloop.cpp.obj
  C:/mingw64/include/c++/13.1.0/barrier
  C:/mingw64/include/c++/13.1.0/latch
  C:/mingw64/include/c++/13.1.0/syncstream
+ C:/mingw64/x86_64-w64-mingw32/include/conio.h
+ C:/mingw64/x86_64-w64-mingw32/include/sec_api/conio_s.h
  C:/Users/17202/Desktop/Remote/include/mainloop.h
  C:/Users/17202/Desktop/Remote/include/key_logging.h
  C:/Users/17202/Desktop/Remote/include/transSpecialKey.h

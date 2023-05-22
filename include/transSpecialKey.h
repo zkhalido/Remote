@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 
-extern int specialKeyArray[8];
+extern int specialKeyArray[3];
 extern bool isSpecialKey;
 extern std::string specialKeyChar;
 
