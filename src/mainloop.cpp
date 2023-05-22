@@ -20,8 +20,8 @@ void MainLoop::run(){
             if(GetAsyncKeyState(key) == -32767){
                 
                 //std::cout << "Key : "<< key << std::endl;
-                isSpecialKey = std::find(std::begin(specialKeyArray), std::end(specialKeyArray)
-                    , key) != std::end(specialKeyArray);
+                isSpecialKey = std::find(std::begin(specialKeyArray), std::end(specialKeyArray), 
+                    key) != std::end(specialKeyArray);
 
                 if(isSpecialKey){
                     specialKeyChar = translateSpecialKey(key);
