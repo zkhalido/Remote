@@ -1,5 +1,5 @@
-CMakeFiles/Remote.dir/src/mainloop.cpp.obj: \
- C:/Users/17202/Desktop/Remote/src/mainloop.cpp \
+CMakeFiles/Remote.dir/src/key_save.cpp.obj: \
+ C:/Users/17202/Desktop/Remote/src/key_save.cpp \
  C:/mingw64/include/c++/13.1.0/iostream \
  C:/mingw64/include/c++/13.1.0/bits/requires_hosted.h \
  C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -155,6 +155,11 @@ CMakeFiles/Remote.dir/src/mainloop.cpp.obj: \
  C:/mingw64/include/c++/13.1.0/bits/ostream.tcc \
  C:/mingw64/include/c++/13.1.0/istream \
  C:/mingw64/include/c++/13.1.0/bits/istream.tcc \
+ C:/mingw64/include/c++/13.1.0/fstream \
+ C:/mingw64/include/c++/13.1.0/bits/codecvt.h \
+ C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/basic_file.h \
+ C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++io.h \
+ C:/mingw64/include/c++/13.1.0/bits/fstream.tcc \
  C:/mingw64/x86_64-w64-mingw32/include/windows.h \
  C:/mingw64/x86_64-w64-mingw32/include/sdkddkver.h \
  C:/mingw64/x86_64-w64-mingw32/include/excpt.h \
@@ -400,204 +405,6 @@ CMakeFiles/Remote.dir/src/mainloop.cpp.obj: \
  C:/mingw64/x86_64-w64-mingw32/include/winsvc.h \
  C:/mingw64/x86_64-w64-mingw32/include/mcx.h \
  C:/mingw64/x86_64-w64-mingw32/include/imm.h \
- C:/mingw64/include/c++/13.1.0/fstream \
- C:/mingw64/include/c++/13.1.0/bits/codecvt.h \
- C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/basic_file.h \
- C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/c++io.h \
- C:/mingw64/include/c++/13.1.0/bits/fstream.tcc \
- C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/stdc++.h \
- C:/mingw64/include/c++/13.1.0/cassert \
- C:/mingw64/x86_64-w64-mingw32/include/assert.h \
- C:/mingw64/include/c++/13.1.0/cfloat \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/float.h \
- C:/mingw64/x86_64-w64-mingw32/include/float.h \
- C:/mingw64/include/c++/13.1.0/ciso646 \
- C:/mingw64/include/c++/13.1.0/climits \
- C:/mingw64/include/c++/13.1.0/csetjmp \
- C:/mingw64/x86_64-w64-mingw32/include/setjmp.h \
- C:/mingw64/include/c++/13.1.0/cstdarg \
- C:/mingw64/include/c++/13.1.0/cstdint \
- C:/mingw64/include/c++/13.1.0/algorithm \
- C:/mingw64/include/c++/13.1.0/bits/stl_algo.h \
- C:/mingw64/include/c++/13.1.0/bits/algorithmfwd.h \
- C:/mingw64/include/c++/13.1.0/bits/stl_heap.h \
- C:/mingw64/include/c++/13.1.0/bits/uniform_int_dist.h \
- C:/mingw64/include/c++/13.1.0/bits/stl_tempbuf.h \
- C:/mingw64/include/c++/13.1.0/bits/ranges_algo.h \
- C:/mingw64/include/c++/13.1.0/bits/ranges_algobase.h \
- C:/mingw64/include/c++/13.1.0/pstl/glue_algorithm_defs.h \
- C:/mingw64/include/c++/13.1.0/pstl/execution_defs.h \
- C:/mingw64/include/c++/13.1.0/bitset \
- C:/mingw64/include/c++/13.1.0/functional \
- C:/mingw64/include/c++/13.1.0/bits/std_function.h \
- C:/mingw64/include/c++/13.1.0/unordered_map \
- C:/mingw64/include/c++/13.1.0/bits/unordered_map.h \
- C:/mingw64/include/c++/13.1.0/bits/hashtable.h \
- C:/mingw64/include/c++/13.1.0/bits/hashtable_policy.h \
- C:/mingw64/include/c++/13.1.0/ext/aligned_buffer.h \
- C:/mingw64/include/c++/13.1.0/bits/enable_special_members.h \
- C:/mingw64/include/c++/13.1.0/bits/node_handle.h \
- C:/mingw64/include/c++/13.1.0/bits/erase_if.h \
- C:/mingw64/include/c++/13.1.0/vector \
- C:/mingw64/include/c++/13.1.0/bits/stl_uninitialized.h \
- C:/mingw64/include/c++/13.1.0/bits/stl_vector.h \
- C:/mingw64/include/c++/13.1.0/bits/stl_bvector.h \
- C:/mingw64/include/c++/13.1.0/bits/vector.tcc \
- C:/mingw64/include/c++/13.1.0/array \
- C:/mingw64/include/c++/13.1.0/iterator \
- C:/mingw64/include/c++/13.1.0/bits/stream_iterator.h \
- C:/mingw64/include/c++/13.1.0/limits \
- C:/mingw64/include/c++/13.1.0/memory \
- C:/mingw64/include/c++/13.1.0/bits/stl_raw_storage_iter.h \
- C:/mingw64/include/c++/13.1.0/bits/align.h \
- C:/mingw64/include/c++/13.1.0/bits/unique_ptr.h \
- C:/mingw64/include/c++/13.1.0/bits/shared_ptr.h \
- C:/mingw64/include/c++/13.1.0/bits/shared_ptr_base.h \
- C:/mingw64/include/c++/13.1.0/bits/allocated_ptr.h \
- C:/mingw64/include/c++/13.1.0/ext/concurrence.h \
- C:/mingw64/include/c++/13.1.0/bits/shared_ptr_atomic.h \
- C:/mingw64/include/c++/13.1.0/bits/atomic_base.h \
- C:/mingw64/include/c++/13.1.0/bits/atomic_lockfree_defines.h \
- C:/mingw64/include/c++/13.1.0/bits/atomic_wait.h \
- C:/mingw64/include/c++/13.1.0/bits/std_mutex.h \
- C:/mingw64/include/c++/13.1.0/backward/auto_ptr.h \
- C:/mingw64/include/c++/13.1.0/bits/ranges_uninitialized.h \
- C:/mingw64/include/c++/13.1.0/pstl/glue_memory_defs.h \
- C:/mingw64/include/c++/13.1.0/numeric \
- C:/mingw64/include/c++/13.1.0/bits/stl_numeric.h \
- C:/mingw64/include/c++/13.1.0/pstl/glue_numeric_defs.h \
- C:/mingw64/include/c++/13.1.0/utility \
- C:/mingw64/include/c++/13.1.0/bits/stl_relops.h \
- C:/mingw64/include/c++/13.1.0/atomic C:/mingw64/include/c++/13.1.0/ratio \
- C:/mingw64/include/c++/13.1.0/scoped_allocator \
- C:/mingw64/include/c++/13.1.0/typeindex \
- C:/mingw64/include/c++/13.1.0/any C:/mingw64/include/c++/13.1.0/optional \
- C:/mingw64/include/c++/13.1.0/variant \
- C:/mingw64/include/c++/13.1.0/bits/parse_numbers.h \
- C:/mingw64/include/c++/13.1.0/ranges C:/mingw64/include/c++/13.1.0/span \
- C:/mingw64/include/c++/13.1.0/source_location \
- C:/mingw64/include/c++/13.1.0/version \
- C:/mingw64/include/c++/13.1.0/cmath \
- C:/mingw64/x86_64-w64-mingw32/include/math.h \
- C:/mingw64/include/c++/13.1.0/bits/specfun.h \
- C:/mingw64/include/c++/13.1.0/tr1/gamma.tcc \
- C:/mingw64/include/c++/13.1.0/tr1/special_function_util.h \
- C:/mingw64/include/c++/13.1.0/tr1/bessel_function.tcc \
- C:/mingw64/include/c++/13.1.0/tr1/beta_function.tcc \
- C:/mingw64/include/c++/13.1.0/tr1/ell_integral.tcc \
- C:/mingw64/include/c++/13.1.0/tr1/exp_integral.tcc \
- C:/mingw64/include/c++/13.1.0/tr1/hypergeometric.tcc \
- C:/mingw64/include/c++/13.1.0/tr1/legendre_function.tcc \
- C:/mingw64/include/c++/13.1.0/tr1/modified_bessel_func.tcc \
- C:/mingw64/include/c++/13.1.0/tr1/poly_hermite.tcc \
- C:/mingw64/include/c++/13.1.0/tr1/poly_laguerre.tcc \
- C:/mingw64/include/c++/13.1.0/tr1/riemann_zeta.tcc \
- C:/mingw64/include/c++/13.1.0/csignal \
- C:/mingw64/x86_64-w64-mingw32/include/signal.h \
- C:/mingw64/x86_64-w64-mingw32/include/pthread_signal.h \
- C:/mingw64/include/c++/13.1.0/cstring \
- C:/mingw64/include/c++/13.1.0/ctime \
- C:/mingw64/include/c++/13.1.0/ccomplex \
- C:/mingw64/include/c++/13.1.0/complex \
- C:/mingw64/include/c++/13.1.0/sstream \
- C:/mingw64/include/c++/13.1.0/bits/sstream.tcc \
- C:/mingw64/include/c++/13.1.0/cfenv C:/mingw64/include/c++/13.1.0/fenv.h \
- C:/mingw64/x86_64-w64-mingw32/include/fenv.h \
- C:/mingw64/include/c++/13.1.0/cinttypes \
- C:/mingw64/x86_64-w64-mingw32/include/inttypes.h \
- C:/mingw64/include/c++/13.1.0/cstdalign \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdalign.h \
- C:/mingw64/include/c++/13.1.0/cstdbool \
- C:/mingw64/include/c++/13.1.0/ctgmath \
- C:/mingw64/include/c++/13.1.0/cuchar \
- C:/mingw64/x86_64-w64-mingw32/include/uchar.h \
- C:/mingw64/include/c++/13.1.0/deque \
- C:/mingw64/include/c++/13.1.0/bits/stl_deque.h \
- C:/mingw64/include/c++/13.1.0/bits/deque.tcc \
- C:/mingw64/include/c++/13.1.0/iomanip \
- C:/mingw64/include/c++/13.1.0/locale \
- C:/mingw64/include/c++/13.1.0/bits/locale_facets_nonio.h \
- C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/time_members.h \
- C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/messages_members.h \
- C:/mingw64/include/c++/13.1.0/bits/locale_facets_nonio.tcc \
- C:/mingw64/include/c++/13.1.0/bits/locale_conv.h \
- C:/mingw64/include/c++/13.1.0/bits/quoted_string.h \
- C:/mingw64/include/c++/13.1.0/list \
- C:/mingw64/include/c++/13.1.0/bits/stl_list.h \
- C:/mingw64/include/c++/13.1.0/bits/list.tcc \
- C:/mingw64/include/c++/13.1.0/map \
- C:/mingw64/include/c++/13.1.0/bits/stl_tree.h \
- C:/mingw64/include/c++/13.1.0/bits/stl_map.h \
- C:/mingw64/include/c++/13.1.0/bits/stl_multimap.h \
- C:/mingw64/include/c++/13.1.0/queue \
- C:/mingw64/include/c++/13.1.0/bits/stl_queue.h \
- C:/mingw64/include/c++/13.1.0/set \
- C:/mingw64/include/c++/13.1.0/bits/stl_set.h \
- C:/mingw64/include/c++/13.1.0/bits/stl_multiset.h \
- C:/mingw64/include/c++/13.1.0/stack \
- C:/mingw64/include/c++/13.1.0/bits/stl_stack.h \
- C:/mingw64/include/c++/13.1.0/valarray \
- C:/mingw64/include/c++/13.1.0/bits/valarray_array.h \
- C:/mingw64/include/c++/13.1.0/bits/valarray_array.tcc \
- C:/mingw64/include/c++/13.1.0/bits/valarray_before.h \
- C:/mingw64/include/c++/13.1.0/bits/slice_array.h \
- C:/mingw64/include/c++/13.1.0/bits/valarray_after.h \
- C:/mingw64/include/c++/13.1.0/bits/gslice.h \
- C:/mingw64/include/c++/13.1.0/bits/gslice_array.h \
- C:/mingw64/include/c++/13.1.0/bits/mask_array.h \
- C:/mingw64/include/c++/13.1.0/bits/indirect_array.h \
- C:/mingw64/include/c++/13.1.0/chrono \
- C:/mingw64/include/c++/13.1.0/bits/chrono.h \
- C:/mingw64/include/c++/13.1.0/bits/chrono_io.h \
- C:/mingw64/include/c++/13.1.0/format \
- C:/mingw64/include/c++/13.1.0/charconv \
- C:/mingw64/include/c++/13.1.0/codecvt \
- C:/mingw64/include/c++/13.1.0/condition_variable \
- C:/mingw64/include/c++/13.1.0/bits/unique_lock.h \
- C:/mingw64/include/c++/13.1.0/stop_token \
- C:/mingw64/include/c++/13.1.0/bits/std_thread.h \
- C:/mingw64/include/c++/13.1.0/semaphore \
- C:/mingw64/include/c++/13.1.0/bits/semaphore_base.h \
- C:/mingw64/include/c++/13.1.0/bits/atomic_timed_wait.h \
- C:/mingw64/include/c++/13.1.0/bits/this_thread_sleep.h \
- C:/mingw64/x86_64-w64-mingw32/include/semaphore.h \
- C:/mingw64/include/c++/13.1.0/forward_list \
- C:/mingw64/include/c++/13.1.0/bits/forward_list.h \
- C:/mingw64/include/c++/13.1.0/bits/forward_list.tcc \
- C:/mingw64/include/c++/13.1.0/future C:/mingw64/include/c++/13.1.0/mutex \
- C:/mingw64/include/c++/13.1.0/bits/atomic_futex.h \
- C:/mingw64/include/c++/13.1.0/random \
- C:/mingw64/include/c++/13.1.0/bits/random.h \
- C:/mingw64/include/c++/13.1.0/x86_64-w64-mingw32/bits/opt_random.h \
- C:/mingw64/include/c++/13.1.0/bits/random.tcc \
- C:/mingw64/include/c++/13.1.0/regex \
- C:/mingw64/include/c++/13.1.0/bits/regex_constants.h \
- C:/mingw64/include/c++/13.1.0/bits/regex_error.h \
- C:/mingw64/include/c++/13.1.0/bits/regex_automaton.h \
- C:/mingw64/include/c++/13.1.0/bits/regex_automaton.tcc \
- C:/mingw64/include/c++/13.1.0/bits/regex_scanner.h \
- C:/mingw64/include/c++/13.1.0/bits/regex_scanner.tcc \
- C:/mingw64/include/c++/13.1.0/bits/regex_compiler.h \
- C:/mingw64/include/c++/13.1.0/bits/regex_compiler.tcc \
- C:/mingw64/include/c++/13.1.0/bits/regex.h \
- C:/mingw64/include/c++/13.1.0/bits/regex.tcc \
- C:/mingw64/include/c++/13.1.0/bits/regex_executor.h \
- C:/mingw64/include/c++/13.1.0/bits/regex_executor.tcc \
- C:/mingw64/include/c++/13.1.0/thread \
- C:/mingw64/include/c++/13.1.0/unordered_set \
- C:/mingw64/include/c++/13.1.0/bits/unordered_set.h \
- C:/mingw64/include/c++/13.1.0/shared_mutex \
- C:/mingw64/include/c++/13.1.0/filesystem \
- C:/mingw64/include/c++/13.1.0/bits/fs_fwd.h \
- C:/mingw64/include/c++/13.1.0/bits/fs_path.h \
- C:/mingw64/include/c++/13.1.0/bits/fs_dir.h \
- C:/mingw64/include/c++/13.1.0/bits/fs_ops.h \
- C:/mingw64/include/c++/13.1.0/memory_resource \
- C:/mingw64/include/c++/13.1.0/barrier \
- C:/mingw64/include/c++/13.1.0/latch \
- C:/mingw64/include/c++/13.1.0/syncstream \
- C:/mingw64/x86_64-w64-mingw32/include/conio.h \
- C:/mingw64/x86_64-w64-mingw32/include/sec_api/conio_s.h \
- C:/Users/17202/Desktop/Remote/include/mainloop.h \
- C:/Users/17202/Desktop/Remote/include/key_save.h \
- C:/Users/17202/Desktop/Remote/include/transSpecialKey.h
+ C:/mingw64/x86_64-w64-mingw32/include/sys/stat.h \
+ C:/mingw64/x86_64-w64-mingw32/include/io.h \
+ C:/mingw64/x86_64-w64-mingw32/include/sys/types.h

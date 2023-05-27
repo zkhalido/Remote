@@ -1,8 +1,8 @@
 #include <iostream>
 #include <windows.h>
 
-//int specialKeyArray[] = {VK_SPACE, VK_RETURN, VK_BACK, VK_CAPITAL, VK_SHIFT, VK_TAB, VK_CONTROL, VK_MENU};
-int specialKeyArray[] = {VK_SPACE, VK_RETURN, VK_BACK};
+int specialKeyArray[] = {VK_SPACE, VK_RETURN, VK_BACK, VK_CAPITAL, VK_SHIFT, VK_TAB, VK_CONTROL, VK_MENU};
+//int specialKeyArray[] = {VK_SPACE, VK_RETURN, VK_BACK};
 
 bool isSpecialKey;
 std::string specialKeyChar;
@@ -20,7 +20,6 @@ std::string translateSpecialKey(int key){
     case VK_BACK:
         result = "\b";
         break;
-    /*
     case VK_CAPITAL:
        result = "[CAPS_LOCK]";
         break;
@@ -36,7 +35,6 @@ std::string translateSpecialKey(int key){
     case VK_MENU:
         result = "[ALT]";
         break;
-    */
     default:
         break;
     

@@ -114,27 +114,27 @@ CMakeFiles/Remote.dir/src/transSpecialKey.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Remote.dir/src/transSpecialKey.cpp.s"
 	C:/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/17202/Desktop/Remote/src/transSpecialKey.cpp -o CMakeFiles/Remote.dir/src/transSpecialKey.cpp.s
 
-CMakeFiles/Remote.dir/src/key_logging.cpp.obj: CMakeFiles/Remote.dir/flags.make
-CMakeFiles/Remote.dir/src/key_logging.cpp.obj: CMakeFiles/Remote.dir/includes_CXX.rsp
-CMakeFiles/Remote.dir/src/key_logging.cpp.obj: C:/Users/17202/Desktop/Remote/src/key_logging.cpp
-CMakeFiles/Remote.dir/src/key_logging.cpp.obj: CMakeFiles/Remote.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/17202/Desktop/Remote/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Remote.dir/src/key_logging.cpp.obj"
-	C:/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Remote.dir/src/key_logging.cpp.obj -MF CMakeFiles/Remote.dir/src/key_logging.cpp.obj.d -o CMakeFiles/Remote.dir/src/key_logging.cpp.obj -c C:/Users/17202/Desktop/Remote/src/key_logging.cpp
+CMakeFiles/Remote.dir/src/key_save.cpp.obj: CMakeFiles/Remote.dir/flags.make
+CMakeFiles/Remote.dir/src/key_save.cpp.obj: CMakeFiles/Remote.dir/includes_CXX.rsp
+CMakeFiles/Remote.dir/src/key_save.cpp.obj: C:/Users/17202/Desktop/Remote/src/key_save.cpp
+CMakeFiles/Remote.dir/src/key_save.cpp.obj: CMakeFiles/Remote.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:/Users/17202/Desktop/Remote/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Remote.dir/src/key_save.cpp.obj"
+	C:/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Remote.dir/src/key_save.cpp.obj -MF CMakeFiles/Remote.dir/src/key_save.cpp.obj.d -o CMakeFiles/Remote.dir/src/key_save.cpp.obj -c C:/Users/17202/Desktop/Remote/src/key_save.cpp
 
-CMakeFiles/Remote.dir/src/key_logging.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Remote.dir/src/key_logging.cpp.i"
-	C:/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/17202/Desktop/Remote/src/key_logging.cpp > CMakeFiles/Remote.dir/src/key_logging.cpp.i
+CMakeFiles/Remote.dir/src/key_save.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Remote.dir/src/key_save.cpp.i"
+	C:/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/17202/Desktop/Remote/src/key_save.cpp > CMakeFiles/Remote.dir/src/key_save.cpp.i
 
-CMakeFiles/Remote.dir/src/key_logging.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Remote.dir/src/key_logging.cpp.s"
-	C:/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/17202/Desktop/Remote/src/key_logging.cpp -o CMakeFiles/Remote.dir/src/key_logging.cpp.s
+CMakeFiles/Remote.dir/src/key_save.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Remote.dir/src/key_save.cpp.s"
+	C:/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/17202/Desktop/Remote/src/key_save.cpp -o CMakeFiles/Remote.dir/src/key_save.cpp.s
 
 # Object files for target Remote
 Remote_OBJECTS = \
 "CMakeFiles/Remote.dir/src/main.cpp.obj" \
 "CMakeFiles/Remote.dir/src/mainloop.cpp.obj" \
 "CMakeFiles/Remote.dir/src/transSpecialKey.cpp.obj" \
-"CMakeFiles/Remote.dir/src/key_logging.cpp.obj"
+"CMakeFiles/Remote.dir/src/key_save.cpp.obj"
 
 # External object files for target Remote
 Remote_EXTERNAL_OBJECTS =
@@ -142,7 +142,7 @@ Remote_EXTERNAL_OBJECTS =
 Remote.exe: CMakeFiles/Remote.dir/src/main.cpp.obj
 Remote.exe: CMakeFiles/Remote.dir/src/mainloop.cpp.obj
 Remote.exe: CMakeFiles/Remote.dir/src/transSpecialKey.cpp.obj
-Remote.exe: CMakeFiles/Remote.dir/src/key_logging.cpp.obj
+Remote.exe: CMakeFiles/Remote.dir/src/key_save.cpp.obj
 Remote.exe: CMakeFiles/Remote.dir/build.make
 Remote.exe: CMakeFiles/Remote.dir/linkLibs.rsp
 Remote.exe: CMakeFiles/Remote.dir/objects1.rsp

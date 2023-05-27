@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Remote.dir/src/key_logging.cpp.obj"
-  "CMakeFiles/Remote.dir/src/key_logging.cpp.obj.d"
+  "CMakeFiles/Remote.dir/src/key_save.cpp.obj"
+  "CMakeFiles/Remote.dir/src/key_save.cpp.obj.d"
   "CMakeFiles/Remote.dir/src/main.cpp.obj"
   "CMakeFiles/Remote.dir/src/main.cpp.obj.d"
   "CMakeFiles/Remote.dir/src/mainloop.cpp.obj"

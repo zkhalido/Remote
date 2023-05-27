@@ -19,8 +19,8 @@
 },
 {
   "directory": "C:/Users/17202/Desktop/Remote/build",
-  "command": "C:/mingw64/bin/c++.exe  @CMakeFiles/Remote.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles/Remote.dir/src/key_logging.cpp.obj -c C:/Users/17202/Desktop/Remote/src/key_logging.cpp",
-  "file": "C:/Users/17202/Desktop/Remote/src/key_logging.cpp",
-  "output": "CMakeFiles/Remote.dir/src/key_logging.cpp.obj"
+  "command": "C:/mingw64/bin/c++.exe  @CMakeFiles/Remote.dir/includes_CXX.rsp -g -std=gnu++20 -o CMakeFiles/Remote.dir/src/key_save.cpp.obj -c C:/Users/17202/Desktop/Remote/src/key_save.cpp",
+  "file": "C:/Users/17202/Desktop/Remote/src/key_save.cpp",
+  "output": "CMakeFiles/Remote.dir/src/key_save.cpp.obj"
 }
 ]

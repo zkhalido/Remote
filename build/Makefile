@@ -194,29 +194,29 @@ Remote/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Remote.dir/build.make CMakeFiles/Remote.dir/build
 .PHONY : Remote/fast
 
-src/key_logging.obj: src/key_logging.cpp.obj
-.PHONY : src/key_logging.obj
+src/key_save.obj: src/key_save.cpp.obj
+.PHONY : src/key_save.obj
 
 # target to build an object file
-src/key_logging.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Remote.dir/build.make CMakeFiles/Remote.dir/src/key_logging.cpp.obj
-.PHONY : src/key_logging.cpp.obj
+src/key_save.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Remote.dir/build.make CMakeFiles/Remote.dir/src/key_save.cpp.obj
+.PHONY : src/key_save.cpp.obj
 
-src/key_logging.i: src/key_logging.cpp.i
-.PHONY : src/key_logging.i
+src/key_save.i: src/key_save.cpp.i
+.PHONY : src/key_save.i
 
 # target to preprocess a source file
-src/key_logging.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Remote.dir/build.make CMakeFiles/Remote.dir/src/key_logging.cpp.i
-.PHONY : src/key_logging.cpp.i
+src/key_save.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Remote.dir/build.make CMakeFiles/Remote.dir/src/key_save.cpp.i
+.PHONY : src/key_save.cpp.i
 
-src/key_logging.s: src/key_logging.cpp.s
-.PHONY : src/key_logging.s
+src/key_save.s: src/key_save.cpp.s
+.PHONY : src/key_save.s
 
 # target to generate assembly for a file
-src/key_logging.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Remote.dir/build.make CMakeFiles/Remote.dir/src/key_logging.cpp.s
-.PHONY : src/key_logging.cpp.s
+src/key_save.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Remote.dir/build.make CMakeFiles/Remote.dir/src/key_save.cpp.s
+.PHONY : src/key_save.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
@@ -305,9 +305,9 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... Remote"
-	@echo "... src/key_logging.obj"
-	@echo "... src/key_logging.i"
-	@echo "... src/key_logging.s"
+	@echo "... src/key_save.obj"
+	@echo "... src/key_save.i"
+	@echo "... src/key_save.s"
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

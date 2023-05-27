@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/17202/Desktop/Remote/src/key_logging.cpp" "CMakeFiles/Remote.dir/src/key_logging.cpp.obj" "gcc" "CMakeFiles/Remote.dir/src/key_logging.cpp.obj.d"
+  "C:/Users/17202/Desktop/Remote/src/key_save.cpp" "CMakeFiles/Remote.dir/src/key_save.cpp.obj" "gcc" "CMakeFiles/Remote.dir/src/key_save.cpp.obj.d"
   "C:/Users/17202/Desktop/Remote/src/main.cpp" "CMakeFiles/Remote.dir/src/main.cpp.obj" "gcc" "CMakeFiles/Remote.dir/src/main.cpp.obj.d"
   "C:/Users/17202/Desktop/Remote/src/mainloop.cpp" "CMakeFiles/Remote.dir/src/mainloop.cpp.obj" "gcc" "CMakeFiles/Remote.dir/src/mainloop.cpp.obj.d"
   "C:/Users/17202/Desktop/Remote/src/transSpecialKey.cpp" "CMakeFiles/Remote.dir/src/transSpecialKey.cpp.obj" "gcc" "CMakeFiles/Remote.dir/src/transSpecialKey.cpp.obj.d"
