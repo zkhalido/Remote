@@ -4,18 +4,20 @@ project(Remote)
 
 set(CMAKE_CXX_STANDARD 20)
 
-include_directories(./include ./src ./lib)
+include_directories(./include ./src)
 
 set(SOURCES 
 ./src/main.cpp 
 ./src/mainloop.cpp 
 ./include/mainloop.h 
-./src/key_save.cpp 
-./include/key_save.h 
+./src/kbd_save.cpp 
+./include/kbd_save.h 
 ./transSpecialKey.cpp 
 ./include/transSpecialKey.h 
 ./src/encrypt.cpp 
-./include/encrypt.h)
+./include/encrypt.h
+./src/decrypt.cpp 
+./include/decrypt.h)
 
 add_executable(${PROJECT_NAME} 
 ./src/main.cpp 
@@ -23,10 +25,12 @@ add_executable(${PROJECT_NAME}
 ./include/mainloop.h 
 ./src/transSpecialKey.cpp 
 ./include/transSpecialKey.h 
-./src/key_save.cpp 
-./include/key_save.h 
+./src/kbd_save.cpp 
+./include/kbd_save.h 
 ./src/encrypt.cpp 
-./include/encrypt.h)
+./include/encrypt.h 
+./src/decrypt.cpp 
+./include/decrypt.h)
 
 #CPACK
 set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/License.txt")

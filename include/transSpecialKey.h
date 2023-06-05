@@ -1,8 +1,8 @@
 #pragma once
 #include <iostream>
 
-extern int specialKeyArray[3];
+extern int specialKeyArray[8];
 extern bool isSpecialKey;
-extern std::string specialKeyChar;
+extern std::string specialKeyString;
 
-std::string translateSpecialKey(int key);
+std::string translateSpecialKey(int vkCode);
